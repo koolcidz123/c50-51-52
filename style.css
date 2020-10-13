@@ -1,0 +1,197 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+
+
+.item1 {
+    background-color: #4d79ff;
+    width: 300px;
+    border: 4px solid ;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 140px;
+  }
+
+  .item2 {
+    background-color:#d6f5d6;
+    width: 300px;
+    border: 4px solid ;
+    padding: 50px;
+    margin: 20px;
+    margin-top: -300px;
+    margin-left: 740px;
+  }
+
+
+  .item3 {
+    background-color:#ff9999;
+    width: 300px;
+    border: 4px solid ;
+    padding: 50px;
+    margin: 20px;
+    margin-bottom: -300px;
+    margin-left: 240px;
+  }
+
+  .item4 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 4px solid ;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 940px;
+    margin-top: -300px;
+  }
+
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+/*.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}*/
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #808080;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.item1{
+    position: relative;
+}
+
+.item1 p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    opacity:0;
+}
+
+.item1:hover p{
+    opacity: 1;
+}
+
+.item1:hover img{
+    opacity: 0.33;
+} 
+
+.item1:hover
+{
+    transform: scale(1.2);
+}
+
+
+.item2{
+    position: relative;
+}
+
+.item2 p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    opacity:0;
+}
+
+.item2:hover p{
+    opacity: 1;
+}
+
+.item2:hover img{
+    opacity: 0.33;
+}
+
+.item2:hover
+{
+    transform: scale(1.2);
+}
+
+.item3{
+    position: relative;
+}
+
+.item3 p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    opacity:0;
+}
+
+.item3:hover p{
+    opacity: 1;
+}
+
+.item3:hover img{
+    opacity: 0.33;
+}
+
+.item3:hover
+{
+    transform: scale(1.2);
+}
+
+
+.item4{
+    position: relative;
+}
+
+.item4 p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    opacity:0;
+}
+
+.item4:hover p{
+    opacity: 1;
+}
+
+.item4:hover img{
+    opacity: 0.33;
+}
+
+
+.item4:hover
+{
+    transform: scale(1.2);
+}
